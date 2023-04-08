@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Card Example</title>
+    <style>
+      body {
+        background: #202020;
+      }
+      .card {
+        border: 5px solid #27ae5f;
+        background: white;
+        padding: 1rem;
+        gap: 1.5rem;
+        justify-content: space-between;
+        display: flex;
+        font-family: Arial;
+        border-radius: 5px;
+      }
+
+      .card_info {
+        display: flex;
+        gap: 1.5rem;
+      }
+
+      p {
+        color: #a3a3a3;
+      }
+
+      .search_box {
+        height: 150px;
+        width: 150px;
+        background: #364b60;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+      }
+
+      .button {
+        background: #27ae5f;
+        border: none;
+        padding: 1rem 1.2rem;
+        color: #fff;
+        width: 100%;
+        border-radius: 5px;
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
+      .card_more_info {
+        text-align: right;
+      }
+
+      /*  .red_log {
+        outline: 3px solid crimson;
+      }
+
+      .blue_log {
+        outline: 3px solid dodgerblue;
+      }
+
+      .yellow_log {
+        outline: 3px solid rgb(0, 156, 130);
+      }*/
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card_info">
+        <!-- SEARCHBOX -->
+        <div class="search_box blue_log">
+          <!-- <img src="" alt=""> -->
+          <h3>IMAGE</h3>
+        </div>
+
+        <!-- CARD DESCRIPTION -->
+        <div class="card_description red_log">
+          <h2>
+            FLATWEB - ONE PAGE <br />
+            MULTIPURPOSE BUSINESS <br />
+            TEMPLATE
+          </h2>
+          <p>The theme you've been waiting for. Seriously!</p>
+        </div>
+      </div>
+      <!-- CARD MORE INFO -->
+      <div class="card_more_info yellow_log">
+        <h3>STARS</h3>
+        <p class="">It takes 15% supersaver</p>
+        <button class="button">purchase</button>
+      </div>
+    </div>
+  </body>
+</html>

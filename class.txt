@@ -1,0 +1,12 @@
+strings -> "hi", 'hello', 'Giwa is a man'
+numbers ->  24
+float -> 24.9778
+booleans -> true or false
+null -> ''
+object -> firstName: "Joseph"
+undefined -> - 
+
+3 WAYS TO CREATE VARIABLES
+const
+var
+let

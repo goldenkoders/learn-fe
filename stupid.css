@@ -1,0 +1,77 @@
+/* margin, border, padding */
+*,
+*:focus {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+.solid-button {
+  background-color: crimson;
+  color: whitesmoke;
+  margin: 2rem 1rem 2rem 2rem;
+  padding: .5rem 1rem;
+  border: .1rem solid transparent;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.solid-button:hover {
+  background-color: #ddd;
+  color: crimson;
+  cursor: pointer;
+}
+
+.solid-button:focus {
+  border: .1rem solid yellow;
+}
+
+.outline-button {
+  border: .1rem solid crimson;
+  padding: .5rem 1rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  color: crimson;
+  margin-right: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.outline-button:hover {
+  border-color: #1a1a1a;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.outline-button:focus {
+  border: 10px rgb(78, 167, 56) solid;
+  color: rgb(78, 167, 56);
+}
+
+.ghost-button {
+  color: crimson;
+}
+
+.ghost-button:hover {
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.input {
+  background-color: crimson;
+  margin-left: 2rem;
+  padding: .5rem;
+  border-radius: 1rem;
+  color: whitesmoke;
+}
+
+.input::placeholder {
+  color: dodgerblue;
+}
+
+.input:focus {
+  background-color: yellow;
+  color: black;
+}

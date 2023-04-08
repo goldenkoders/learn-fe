@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shapes</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .box {
+        height: max-content;
+        display: none;
+        gap: 90px;
+        flex-direction: column-reverse;
+        background: rgb(155, 155, 207);
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-top: 15px;
+        font-family: Helvetica;
+        color: whitesmoke;
+      }
+
+      .profile-picture {
+        border-radius: 50%;
+        height: 25px;
+        width: 25px;
+        border: 3px solid whitesmoke;
+        object-fit: cover;
+      }
+
+      .circle {
+        height: 40px;
+        width: 40px;
+        background-color: rgb(212, 124, 9);
+        border-radius: 40%;
+      }
+
+      .rectangle {
+        height: 300px;
+        width: max-content;
+        outline: 2px solid rgb(185, 185, 185);
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        background-color: #252525;
+      }
+
+      .section_two {
+        height: 35px;
+        display: flex;
+        align-items: center;
+      }
+
+      .section_one,
+      .section_three {
+        width: 120px;
+        height: 50px;
+      }
+
+      .parent {
+        display: flex;
+        align-items: center;
+      }
+
+      .green {
+        border: 2px solid green;
+        align-self: center;
+      }
+
+      .red {
+        border: 2px solid rebeccapurple;
+      }
+
+      .blue {
+        border: 2px solid dodgerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Hello</h1>
+      <h1>Welcome to the shapes club</h1>
+      <p>Parabola is eminent</p>
+      <!-- <img
+        class="profile-picture"
+        src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+        alt=""
+        srcset=""
+      />
+      <img
+        class="profile-picture"
+        src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+        alt=""
+        srcset=""
+      />
+      <img
+        class="profile-picture"
+        src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+        alt=""
+        srcset=""
+      /> -->
+      <img
+        class="profile-picture"
+        src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+        alt=""
+        srcset=""
+      />
+      <h1>The end</h1>
+    </div>
+    <div class="rectangle">
+      <div class="parent">
+        <div class="section_one blue">
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="section_two green">
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="section_three red">
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+          <img
+            class="profile-picture"
+            src="https://hollywoodlife.com/wp-content/uploads/2021/09/lebron-james-savannah-james-backgrid-embed.jpg?w=620"
+            alt=""
+            srcset=""
+          />
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="circle"></div>
+  </body>
+</html>
